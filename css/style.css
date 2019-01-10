@@ -1,0 +1,45 @@
+html {
+	overflow: hidden;
+	touch-action: none;
+	content-zooming: none;
+}
+body {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background: #B20811;
+	width: 100%;
+	height: 100%;
+}
+#canvas {
+	width: 100vw; 
+	height: 56.25vw; /*100/56.25 = 1.778 Math*/
+	background: #000;
+	max-height: 100vh;
+	max-width: 177.78vh; /*16/9 = 1.778 Math*/
+	margin: auto;
+	position: absolute;
+	top:0; /*vertical*/
+	bottom:0; 
+	left:0; /*horizontal*/
+	right:0; 
+}
+#info {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 90px;
+	height: 70px;
+	color: #006BEC;
+	font-size: 1em;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	user-elect: none;
+}
+
+#info input[type="button"] {
+	font-size:0.9em;
+	background:#666;
+	color:#006BEC;
+	border: none;
+	cursor: pointer;
+}
